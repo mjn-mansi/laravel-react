@@ -20,6 +20,7 @@ export default defineConfig({
     resolve: {
         alias: {
             "@": "/resources/js",
+            '@hooks': '/resources/js/hooks',
         }
     }
 });
